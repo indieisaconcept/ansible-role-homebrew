@@ -12,8 +12,8 @@
   homebrew:
     update_homebrew: yes
 
-- name: Add caskroom/cask tap.
-  homebrew_tap: tap=caskroom/cask
+- name: Add homebrew/cask tap.
+  homebrew_tap: tap=homebrew/cask
 
 - name: Add additional taps.
   homebrew_tap: tap={{ item }}
